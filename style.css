@@ -57,6 +57,9 @@ nav ul li a:hover{
 }
 .btn:hover{
   transform: scale(1.2);
+  cursor: pointer;
+  border: 2px solid var(--red);
+  background-color: transparent;
 }
 .content{
   position: absolute;
@@ -104,4 +107,45 @@ h4{
   box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
   top: 5px;
   right: 6px;
+}
+.about{
+  width: 100%;
+  padding: 100px 0px;
+  background-color: #191919; 
+}
+.about img{
+  height: auto;
+  width: 430px;
+}
+.about-text{
+  width: 550px;
+}
+.main{
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.about-text h2{
+  color: var(--white);
+  font-size: 4rem;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+.about-text p{
+  color: var(--white);
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+  letter-spacing: .1rem;
+  margin-bottom: 1rem;
+}
+.about-text h5{
+  color: var(--white);
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  letter-spacing: .2rem;
+  margin-bottom: 1rem;
 }
