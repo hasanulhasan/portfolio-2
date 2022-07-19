@@ -209,3 +209,52 @@ h4{
   font-weight: bold;
   margin-bottom: 2rem;
 }
+footer{
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background: #101010;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+footer p:nth-child(1){  
+  font-size: 30px;
+  color: var(--white);
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+footer p:nth-child(2){  
+  font-size: 17px;
+  color: var(--white);
+  margin-bottom: 20px;
+  font-family: bold;
+  width: 50%;
+  text-align: center;
+}
+.social{
+  display: flex;
+}
+.social a{
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--red);
+  border-radius: 50%;
+  margin: .5rem;
+  color: var(--white);
+  text-decoration: none;
+  transition: all .1s linear;
+}
+.social a:hover{
+  transform: scale(1.2);
+}
+.end{
+  position: absolute;
+  color: var(--red);
+  font-size: 14px;
+  bottom: 35px;
+}
